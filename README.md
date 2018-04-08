@@ -25,6 +25,8 @@ Finally, specify the button/link you want to add confirmation on. For example:
 `data-title`: will add title to confirmation box, default is: **Confirm**
 `data-message`:  will show message specified in message, default is: **Are you Sure ?**
 
+[[https://github.com/abhikanojia/images/blob/master/bootstrap_confirm/confirm_dialogue.png|alt=bootstrap_confirm]]
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/abhikanojia/bootstrap_confirm. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
