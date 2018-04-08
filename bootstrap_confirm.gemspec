@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Abhishek Kanojia"]
   spec.email         = ["abhishek.kanojia3193@gmail.com"]
 
-  spec.summary       = %q{BootstrapConfirm provides bootstrap confirmation message just using bootstrap modal.}
-  spec.description   = %q{BootstrapConfirm provides bootstrap confirmation message just using bootstrap modal.}
+  spec.summary       = %q{ BootstrapConfirm provides bootstrap confirmation message just using bootstrap modal. }
+  spec.description   = %q{ BootstrapConfirm provides bootstrap confirmation box, easy to integrate with rails. }
   spec.homepage      = "https://github.com/abhikanojia/bootstrap_confirm"
   spec.license       = "MIT"
 
@@ -22,6 +22,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency 'jquery-rails', '>= 4.3.1'
+  spec.add_dependency 'bootstrap-sass', '>= 3.3.7'
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
 end
