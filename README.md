@@ -22,10 +22,14 @@ Finally, specify the button/link you want to add confirmation on. For example:
 ```ruby
     <%= link_to "Delete", article_path(article), method: :delete, data: { bootstrap_confirm: true, title: 'Delete', message: 'Are you sure you want to delete this article ?' } %>
 ```
-`data-title`: will add title to confirmation box, default is: **Confirm**
-`data-message`:  will show message specified in message, default is: **Are you Sure ?**
 
-[[https://github.com/abhikanojia/images/blob/master/bootstrap_confirm/confirm_dialogue.png|alt=bootstrap_confirm]]
+```
+  `data-title`: will add title to confirmation box, default is: **Confirm**
+
+  `data-message`:  will show message specified in message, default is: **Are you Sure ?**
+```
+
+![Bootstrap Confirm](https://github.com/abhikanojia/images/blob/master/bootstrap_confirm/confirm_dialogue.png)
 
 ## Contributing
 
