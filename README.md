@@ -24,9 +24,9 @@ Finally, specify the button/link you want to add confirmation on. For example:
 ```
 
 ```
-  `data-title`: will add title to confirmation box, default is: **Confirm**
+  `data-title`: will add title to confirmation box, default is: Confirm
 
-  `data-message`:  will show message specified in message, default is: **Are you Sure ?**
+  `data-message`:  will show message specified in message, default is: Are you Sure ?
 ```
 
 ![Bootstrap Confirm](https://github.com/abhikanojia/images/blob/master/bootstrap_confirm/confirm_dialogue.png)
