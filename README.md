@@ -19,6 +19,8 @@ Add partial to layout that you are using for example: `application.html.erb`
 ```
 
 Initialize bootstrap_confirm :
+for example:  `bootstrap_confirm_init.js`
+
 ```js
   (function(){
     var data = {
@@ -32,6 +34,11 @@ Initialize bootstrap_confirm :
 
   })();
 
+```
+
+Include it at the end of page:
+```ruby
+  <%= javascript_include_tag "bootstrap_confirm_init" %>
 ```
 
 Finally, specify the button/link you want to add confirmation on. For example:
