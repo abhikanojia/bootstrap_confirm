@@ -18,6 +18,22 @@ Add partial to layout that you are using for example: `application.html.erb`
     <%= render partial: 'bootstrap/confirm_box' %>
 ```
 
+Initialize bootstrap_confirm :
+```js
+  (function(){
+    var data = {
+      confirmBox: $('[data-bootstrap-confirm-box=true]'),
+      triggerButton: $('[data-bootstrap-confirm=true]'),
+      okButton: $('[data-confirm-button=true]')
+    },
+
+    bootstrapConfirm = new BootstrapConfirm(data);
+    bootstrapConfirm.init();
+
+  })();
+
+```
+
 Finally, specify the button/link you want to add confirmation on. For example:
 ```ruby
     <%= link_to "Delete", article_path(article), method: :delete, data: { bootstrap_confirm: true, title: 'Delete', message: 'Are you sure you want to delete this article ?' } %>
